@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  fondo ------------------------------------------------------------------------------------------- */
+
+
+.fondo-general{
+	background-image: url(../img/../img/fondo.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:auto;
+
+}
+
+.filtro-fondo-general{
+	background-color:hsla(110,65%,22%,0.20);
+	height:auto;
+	margin:0;
+}
+
+
+
+
+/*encabezado    ----------------------------------------------------------------------------------------*/
+
+.img-logo{
+	width:240px;
+
+}
+
+.slogan{
+	margin-top:2rem;
+	margin-left:20px;
+}
+
+
+/* centro  ----------------------------------------------------------------------------------------------*/
+
+
+.centro{
+	height:35rem;
+}
+
+.iconos-redes{
+	margin-bottom:30px;
+}
+
+.galeria-fotos{
+	width:95%;
+}
+
+.galeria-fotos-centro{
+	margin-top:6rem;
+	width:100%;
+}
+
+/*  contenido  ---------------------------------------------------------------------------------------------*/
+
+.contenido{
+	height:40rem;
+}
+
+.publicacion{
+	margin-left:100px;
+	margin-top:100px;
+}
+
+.autor{
+	margin-top:100px;
+	margin-right:150px;
+}
+
+.img-publicacion{
+	width:200px;
+	margin:10px;
+}
+
+
+.img-autor{
+	width:50%;
+	margin-top:20px;
+}
+
+/* formulario */
+
+
+.boton-enviar{
+	margin-bottom:20px;
+	
+}
+
+
+/*   MEDIOS   */
+
+/* medio*/
+@media (min-width:600px) and (max-width:992px){ 
+	.img-logo{
+		width:150px;
+	}	
+	.img-autor{
+		width:150px;		
+	}
+	.img-publicacion{
+		width:150px;
+	}
+	.slogan{
+		font-size:25px;
+	}
+	.galeria-fotos{
+		width:100%;
+	}
+	.galeria-fotos-centro{
+		width:100%;
+	}
+}
+
+/* small*/
+
+@media (max-width:600px){
+	body{
+		min-width:350px;
+	}
+	.img-logo{
+		width:150px;
+	}	
+	.img-autor{
+		width:150px;		
+	}
+	.img-publicacion{
+		width:150px;
+	}
+	.slogan{
+		font-size:25px;
+	}
+	.autor{
+		margin:30px;
+	}
+}
